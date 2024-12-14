@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__nav {
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.25);
+    background: #282828;
+    padding: 6px 0;
+}
+
+.header__nav-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav-left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header__nav-list,
+.footer__content-list {
+    display: flex;
+    gap: 30px;
+}
+
+.header__nav-link,
+.footer__content-link {
+    font-family: "MB";
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+    color: #fff;
+    transition: 400ms;
+}
+
+.header__nav-link,
+.footer__content-link:hover {
+    color: rgb(189, 189, 189);
+}
+
+.header__nav-right {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.header__content {
+    width: 100%;
+    height: 100vh;
+    background: url(../images/Header.jpg) no-repeat center /cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 38px;
+}
+
+.header__content-title {
+    font-family: "PR";
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 75%;
+    color: #fff;
+}
+
+.header__content-link {
+    font-family: "MM";
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+    padding: 13px 14px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(15px);
+
+    svg path {
+        fill: rgba(255, 255, 255, 0.7);
+    }
+}
+
+.main__details {
+    background: #151515;
+    padding: 30px 0;
+}
+
+.main__details-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.main__details-text {
+    font-family: "MM";
+    font-weight: 500;
+    font-size: 22px;
+    color: #fff;
+}
+
+.main__details-img {
+    width: 100%;
+}
+
+.main__use {
+    background: #151515;
+    padding: 30px 0;
+    gap: 15px;
+}
+
+.main__use-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    gap: 15px;
+}
+
+.main__use-text {
+    font-family: "MB";
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+    color: #fff;
+}
+
+.right {
+    text-align: left;
+}
+
+.main__use-img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 11px;
+}
+
+.main__use-img::before {
+    content: '';
+    display: block;
+    width: 61px;
+    height: 1px;
+    background: #c4c4c4;
+}
+
+.main__use-img::after {
+    content: '';
+    display: block;
+    width: 61px;
+    height: 1px;
+    background: #c4c4c4;
+}
+
+.main__cards {
+    background: #151515;
+    padding: 30px 0;
+}
+
+.main__cards-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.main__cards-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+    border-radius: 6px;
+    max-width: 255px;
+    width: 100%;
+    background: #fff;
+    height: 312px;
+}
+
+.main__cards-title {
+    font-family: "MB";
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+}
+
+.main__cards-text {
+    font-family: "MR";
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.main__cards-btn {
+    background: #151515;
+    max-width: 161px;
+    width: 100%;
+    height: 34px;
+    font-family: "MB";
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    transition: 400ms;
+}
+
+.main__cards-btn:hover {
+    background: #282828;
+    color: #151515;
+
+}
+
+.footer {
+    box-shadow: 0 -4px 20px 0 rgba(0, 0, 0, 0.25);
+    background: #282828;
+    padding: 30px 0;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__content-cards {
+    display: flex;
+    gap: 30px;
+}
